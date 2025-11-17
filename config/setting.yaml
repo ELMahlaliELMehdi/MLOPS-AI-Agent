@@ -1,0 +1,26 @@
+agent:
+  name: "Tool-Using AI Agent"
+  version: "1.0.0"
+  tools:
+    - calculator
+    - weather
+    - wikipedia
+    - datetime
+  
+  reasoning_strategy: "keyword_matching"
+  max_history: 3
+  
+performance:
+  timeout_seconds: 10
+  max_retries: 3
+  cache_enabled: false
+
+monitoring:
+  prometheus_enabled: true
+  mlflow_enabled: true
+  log_level: "INFO"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 1
