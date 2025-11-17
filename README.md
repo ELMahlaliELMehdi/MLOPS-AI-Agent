@@ -262,20 +262,6 @@ curl http://localhost:8000/health
 ```
 
 ---
-
-## 📸 Screenshots
-
-### API Documentation
-![API Docs](docs/api-docs.png)
-
-### Grafana Dashboard
-![Grafana](docs/grafana-dashboard.png)
-
-### MLflow Tracking
-![MLflow](docs/mlflow-ui.png)
-
----
-
 ## 🔮 Future Enhancements
 
 - [ ] Add authentication (JWT tokens)
